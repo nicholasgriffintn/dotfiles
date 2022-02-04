@@ -1,0 +1,5 @@
+[user]
+        name = Nicholas Griffin
+        email = me@nicholasgriffin.co.uk
+[credential]
+        helper = osxkeychain
