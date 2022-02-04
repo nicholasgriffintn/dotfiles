@@ -36,10 +36,10 @@ done
 export ZSH=$HOME/.dotfiles
 
 # Set macOS defaults
-$ZSH/macos/set-defaults.sh
+sh $ZSH/macos/set-defaults
 
 # Install homebrew
-$ZSH/homebrew/install.sh 2>&1
+sh $ZSH/homebrew/install 2>&1
 
 # Upgrade homebrew
 echo "› brew update"
@@ -47,4 +47,4 @@ brew update
 
 # Install software
 echo "› $ZSH/script/install"
-$ZSH/script/install
+sh $ZSH/script/install
