@@ -1,6 +1,3 @@
-[user]
-  name = Nicholas Griffin
-  email = inbox@nicholasgriffin.dev
 [alias]
   co = checkout
 [color]
@@ -10,7 +7,7 @@
   ui = true
 [core]
   excludesfile = ~/.gitignore
-  editor = vscode
+  editor = vim
 [apply]
   whitespace = nowarn
 [mergetool]

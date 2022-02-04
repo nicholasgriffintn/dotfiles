@@ -35,7 +35,7 @@ defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.Web
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 # Remove shadows from screensots
-defaults write com.apple.screencapture disable-shadow -bool false; killall SystemUIServer
+# defaults write com.apple.screencapture disable-shadow -bool false; killall SystemUIServer
 
 # Set the default location for screenshots
-defaults write com.apple.screencapture location /Users/nicholasgriffin/Pictures
+# defaults write com.apple.screencapture location /Users/nicholasgriffin/Pictures
