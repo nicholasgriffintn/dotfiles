@@ -38,4 +38,4 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 # defaults write com.apple.screencapture disable-shadow -bool false; killall SystemUIServer
 
 # Set the default location for screenshots
-# defaults write com.apple.screencapture location /Users/nicholasgriffin/Pictures
+# defaults write com.apple.screencapture location ~/Pictures/screenshots
