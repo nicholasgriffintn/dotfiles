@@ -3,6 +3,8 @@
 cd "$(dirname "$0")/.."
 DOTFILES_ROOT=$(pwd -P)
 
+git pull.rebase true origin main;
+
 set -e
 
 echo ''

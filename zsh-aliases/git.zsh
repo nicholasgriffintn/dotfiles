@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 alias gc='git commit'
 alias gca='git commit -a'
 alias gco='git checkout'
